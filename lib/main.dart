@@ -6,8 +6,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('hello world'),
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text("I am Rich man"),
+          backgroundColor: Colors.blueGrey[900],
+        ),
       ),
     ),
   );
